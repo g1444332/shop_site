@@ -29,7 +29,7 @@ body {
     border: none;
     background: none;   
     outline: none;
-    margin-left: 186vh;
+    margin-left: 184vh;
 }
 
 #Bxod:hover, #reg:hover {
@@ -102,12 +102,12 @@ input{
 }
 
 #header_3 li:not(:last-of-type) {
-    margin-right: 64px;
+    margin-right: 40px;
 }
 
 #header_3 hr {
     position: relative;
-    top: 10px;
+    top: 5px;
     width: 100%;
 }
 
@@ -246,13 +246,18 @@ footer {
 }
 
 
-#down{
+#down, .header_up{
     margin-left: 10px;
     height: 15px;
     width: 15px;
     position: relative;
     top: 7px;
 } 
+
+.header_up {
+    margin-left: 5px;
+    margin-bottom: 6px;
+}
 
 #filter_img {
     margin-right: 10px;
