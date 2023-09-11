@@ -18,23 +18,19 @@ body {
     display: flex;  
 }
 
-#reg {
+#reg, #Bxod {
     border: none;
     background: none;
     outline: none;
-    position: relative; 
 }
 
 #Bxod {
-    border: none;
-    background: none;   
-    outline: none;
     margin-left: 184vh;
 }
 
-#Bxod:hover, #reg:hover {
+#Bxod:hover, #reg:hover, #list li:hover:not(:first-of-type) {
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: underline 2px;
 }
 
 #header_2, #header_3 {
@@ -96,21 +92,19 @@ input{
   height: 30px;
 }
 
-.submit{
+.submit, #list li:first-of-type {
   color: silver;
   background: none;
 }
 
-#header_3 li:not(:last-of-type) {
+#header_3 li:not(:last-of-type), #list li:not(:last-of-type)  {
     margin-right: 40px;
 }
 
 #header_3 hr {
     position: relative;
     top: 5px;
-    width: 100%;
 }
-
 
 #trash_img {
     height: 30px;
@@ -139,7 +133,6 @@ main {
     display: block;
 }
 
-
 #buy_panel {
     display: grid;
     grid-template-columns: 330px 330px 0px;
@@ -158,7 +151,6 @@ main {
     border: #bfe9ff 5px solid;
     margin-left: -10px;
 }
-
 
 footer {
     background: #bfe9ff;
@@ -181,12 +173,7 @@ footer {
     margin-right: 20px; 
 }
 
-.footer_1 a {
-    color: black;
-    text-decoration: none;
-}
-
-.footer_1 a:hover {
+.footer_1 a:hover, .footer_2 a:hover {
     text-decoration: underline;
 }
 
@@ -201,16 +188,10 @@ footer {
     margin-right: 10px; 
 }
 
-.footer_2 a, .footer_2 {
+.footer_2 a, .footer_2, .footer_1 a {
     color: black;
     text-decoration: none;
-    font-family: none;
 }
-
-.footer_2 a:hover {
-    text-decoration: underline;
-}
-
   
 #list ul {
     list-style: none;
@@ -219,19 +200,6 @@ footer {
     justify-content: center;
     margin-top: 50px;
     margin-right: 190px;
-}
-
-#list li:not(:last-of-type) {
-    margin-right: 40px;
-}
-
-#list li:first-of-type {
-    color: silver;
-}
-
-#list li:hover:not(:first-of-type) {
-    cursor: pointer;
-    text-decoration: underline 2px;
 }
 
 #filter_1 {
@@ -244,7 +212,6 @@ footer {
     margin-left: 25%;
     margin-top: 25px;
 }
-
 
 #down, .header_up{
     margin-left: 10px;

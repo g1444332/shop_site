@@ -10,3 +10,35 @@ function onButtonClick() {
         down.setAttribute('src', 'image/up.png');
     }
 }
+
+function onButtonClick1(num) {
+    var list1 = [
+    document.getElementById('all'), 
+    document.getElementById('new'), 
+    document.getElementById('see'), 
+    document.getElementById('symku'),
+    document.getElementById('odayg'),
+    document.getElementById('sezon')
+    ];
+    var list2 = [
+    document.getElementById('all_menu'), 
+    document.getElementById('new_menu'), 
+    document.getElementById('see_menu'), 
+    document.getElementById('symku_menu'),
+    document.getElementById('odayg_menu'),
+    document.getElementById('sezon_menu')
+    ];
+
+
+    var el1 = list1[num];
+    var el2 = list2[num];
+
+    if (el2.style.display == "block") {
+        el1.setAttribute('src', 'image/down.png');
+        el2.style.display = "none";
+    }
+    else {
+        el2.style.display = "block";
+        el1.setAttribute('src', 'image/up.png');
+    }
+}
