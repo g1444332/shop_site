@@ -1,3 +1,14 @@
-#all_menu {
+
+#all_menu.active, #new_menu.active, #see_menu.active, #odayg_menu.active, #symku_menu.active, #sezon_menu.active {
+    display: block;
+}
+
+
+.all_menu {
     display: none;
+    z-index: 1;
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    background: salmon;
 }
