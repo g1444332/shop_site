@@ -10,5 +10,8 @@
     position: absolute;
     height: 400px;
     width: 100%;
-    background: salmon;
+    background: #fff;
+    right: 0px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1); 
+    border-top: 1px solid silver;
 }
