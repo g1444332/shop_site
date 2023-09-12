@@ -14,7 +14,7 @@
     <header>
       <div id="header_1">
         <ul>
-          <li><img id="home" src="image/home.png" alt=""></li>
+          <li><img id="home" onclick="location.href='index.html'" src="image/home.png" alt=""></li>
           <li><button class="reg/Bxod" id="Bxod">Війти</button></li>
           <li><p class="reg/Bxod" id="slash">/</p></li>
           <li><button class="reg/Bxod" id="reg">Зареєструватися</button></li>
@@ -66,7 +66,23 @@
         <p onclick="onButtonClick()" id="filter_1"><img id="filter_img" src="image/filter.png" alt=""> ФІЛЬТРИ <img id="down" src="image/down.png" alt=""></p>
       </div>
       <div id="filter_2">
-        <p>fff</p>
+        <table>
+          <tr id="fil_class">
+            <td>Вид</td>
+            <td>Колір</td>
+            <td>Ціна</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="rd1" checked id="">всі</td>
+            <td><input type="radio" name="rd2" checked id="">всі</td>
+            <td><input type="radio" name="rd3" checked id="">всі</td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="rd1" id="">test</td>
+            <td><input type="radio" name="rd2" id="">test</td>
+            <td><input type="radio" name="rd3" id="">test</td>
+          </tr>
+        </table>
       </div>
     </header>
 
